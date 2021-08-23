@@ -1,0 +1,28 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+#header{
+    background-image: url('image/th.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    
+}
+.text-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#phim1{
+    background-image: url('image/phim1.jpg');
+    background-size: cover;
+    min-height: 300px;
+}
+#phim2{
+    background-image: url('image/phim2.jpg');
+    background-size: cover;
+    min-height: 300px;
+}

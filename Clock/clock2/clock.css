@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(10, 10, 10, 0.753);
+}
+
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+}
+
+.clock .d{
+    flex-basis: 32%;
+    height: 350px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.clock .d span{
+    color: white;
+    font-size: 300px;
+    padding-left: 50px;
+
+}
